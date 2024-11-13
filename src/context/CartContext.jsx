@@ -1,5 +1,6 @@
-import {CartReducer} from "../reducers/CartReducer"
+
 import { Children, createContext, useContext, useReducer } from "react";
+import { CartReducer } from "../reducers";
  const IntialCartList={
     cartList:[],
     total:0
