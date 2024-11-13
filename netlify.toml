@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://your-heroku-app.herokuapp.com/*"
+  status = https://codebook-server-1ryy.onrender.com
+  force = true
