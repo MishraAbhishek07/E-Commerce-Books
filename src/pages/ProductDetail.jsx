@@ -2,8 +2,9 @@ import { useEffect, useState } from "react"
 import { Rating } from "../components/element/Rating"
 import { useParams } from "react-router-dom"
 import { toast } from "react-toastify"
-import { useTitle } from "../hooks/useTitle"
 import { useCart } from "../context/CartContext"
+import { useTitle } from "../hooks/useTitle"
+
 import { getProductDetail } from "../services"
 
 
