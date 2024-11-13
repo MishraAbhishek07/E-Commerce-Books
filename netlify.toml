@@ -1,5 +1,4 @@
 [[redirects]]
-  from = "/*"
-  to =" https://codebook-server-1ryy.onrender.com"
-  status = 200
-  force = true
+from = "/*"
+to = "/index.html"
+status = 200
