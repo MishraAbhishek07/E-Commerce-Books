@@ -7,7 +7,14 @@ export const DropdownLoggedIn = ({setdrop}) => {
     const location = useLocation();
     const { pathname } = location;
      const [prevPathname, setPrevPathname] = useState(pathname); 
-     useEffect(() => { if (pathname !== prevPathname) { setdrop(false); setPrevPathname(pathname); } }, [pathname, prevPathname, setdrop]);
+     useEffect(() => 
+        { if (pathname !== prevPathname) 
+            { 
+                setdrop(false); 
+                setPrevPathname(pathname); 
+
+            } },
+      [pathname, prevPathname, setdrop]);
 
     const[user,setUser]=useState({})
     useEffect(()=>{
