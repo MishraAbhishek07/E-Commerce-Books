@@ -1,7 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import {register} from "../services"
-import { toast } from 'react-toastify';
+
 import { useTitle } from '../hooks/useTitle';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
